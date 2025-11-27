@@ -26,7 +26,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <a href="/" className="flex items-center space-x-2">
               <img 
-                src={isScrolled ? "/LogoDeepiotics.png" : "/LogoDeepiotics.png"}
+                src={isScrolled ? "/DEEPIOTICS/LogoDeepiotics.png" : "/DEEPIOTICS/LogoDeepiotics.png"}
                 alt="Deepiotics Logo" 
                 className="h-10 w-auto"
                 style={!isScrolled ? { filter: 'brightness(0) invert(1)' } : {}}

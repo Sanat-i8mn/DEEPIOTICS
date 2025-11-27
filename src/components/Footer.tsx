@@ -63,7 +63,7 @@ const handleSubscribe = async (e: React.FormEvent) => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
               <img 
-                src="/LogoDeepiotics.png" 
+                src="/DEEPIOTICS/LogoDeepiotics.png" 
                 alt="Deepiotics Logo" 
                 className="h-10 w-auto"
                 style={{ filter: 'brightness(0) invert(1)' }}
