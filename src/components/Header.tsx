@@ -100,67 +100,53 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-200/20">
-            <div className="flex flex-col space-y-4">
+          <div className="lg:hidden py-4 border-t border-gray-200/20 bg-white/95 backdrop-blur-md rounded-b-lg shadow-lg">
+            <div className="flex flex-col space-y-4 px-4">
               <a
                 href="/"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a
                 href="/about"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </a>
               <a
                 href="/services"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </a>
               <a
                 href="/portfolio"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Portfolio
               </a>
               <a
                 href="/blog"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Blog
               </a>
               <a
                 href="/careers"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Careers
               </a>
               <a
                 href="/contact"
-                className={`font-medium transition-colors hover:text-blue-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
-                }`}
+                className="font-medium transition-colors hover:text-blue-600 text-gray-700"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
