@@ -111,28 +111,28 @@ const About = () => {
                 name: 'Dr. Bhawna Nigam',
                 role: 'Co-Founder & AI Consultant',
                 description: 'Ph.D. in AI with 50+ research papers and 70+ successful AI projects, she specializes in scalable AI systems and ML engineering.',
-                image: '/bhawna.png',
+                image: '/DEEPIOTICS/bhawna.png',
                 linkedin: 'https://www.linkedin.com/in/dr-bhawna-nigam/'
               },
               {
                 name: 'Dr. Madhu Jain',
                 role: 'Head of R&D and Data Science',
                 description: 'Ph.D. and data science expert leading research and innovation initiatives across AI and analytics.',
-                image: '/madhuji.png',
+                image: '/DEEPIOTICS/madhuji.png',
                 linkedin: 'https://www.linkedin.com/in/madhu-jain-5b5917376/'
               },
               {
                 name: 'Rajshri Nigam',
                 role: 'Head of Business Development',
                 description: 'Leads business development and client strategy, driving growth and partnerships in the global AI ecosystem.',
-                image: '/rajeshri.png',
+                image: '/DEEPIOTICS/rajeshri.png',
                 linkedin: 'https://www.linkedin.com/in/rajeshri-nigam-a4941337a/'
               },
               {
                 name: 'Narendra Pipliwal',
                 role: 'Project Manager – AI Implementation',
                 description: 'Manages AI deployment and process optimization, ensuring smooth execution of client AI solutions.',
-                image: '/Narendra.png',
+                image: '/DEEPIOTICS/Narendra.png',
                 linkedin: 'https://www.linkedin.com/in/narendra-pipliwal'
               }
             ].map((member, index) => (
